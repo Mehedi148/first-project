@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500&display=swap');
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Barlow',sans-serif;
+    overflow: hidden;
+    margin: 30px;
+}
+.header-wrapper{
+    background-color: #3EBFFF;
+    background-image: url(../sunnyside-agency-landing-page-main/images/desktop/image-header.jpg.);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0, -40px;
+    height: 750px;
+}
+
+
+.content{
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    list-style: none;
+    
+}
+
+.main-heading{
+    text-transform:uppercase;
+     color: white;
+     padding: 20px;
+     font-size: 40px;
+     letter-spacing: 8px;
+     font-family: 'Fraunces', serif;
+     text-align: center;
+     margin-bottom: 20px;
+
+}
+.primary-nav{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.primary-nav  li a{
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-contact :hover{
+    background-color: #3EBFFF;
+ 
+    border: 3px solid white;
+    border-radius: 20px;
+   
+}
+.arrow-icons{
+    text-align: center;
+    margin-top: 100px;
+}
+.first-part{
+    display: flex;
+    margin: 0px 20px;
+    background-color: white;
+    font-family:  'Roboto Slab', serif;
+}
+.first-leftsite{
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+    padding: 110px; 
+}
+.first-rightsite img{
+    width: 700px;
+    height: 100%;
+
+}
+    
+.first-leftsite p{
+    color: blueviolet;
+}
+.first-leftsite a{
+    text-decoration: none;
+    border-bottom: 5px solid yellow;
+    letter-spacing: 3px;
+}
+.second-part{
+    display: flex;
+    background-color: white;
+    font-family:  'Roboto Slab', serif;
+}
+.second-rightsite{
+    width: 500px;
+    padding: 100px;
+    margin: 50px;
+    height: 100%;
+}
+
+.second-img{
+    width: 667px;
+    height: 100%;
+}
+.second-rightsite p{
+    color: blueviolet;
+}
+.second-rightsite a{
+    text-decoration: none;
+    border-bottom: 5px solid yellow;
+    letter-spacing: 3px;
+}
+.third-part{
+    display: flex;
+    background-color: white;
+    font-family:  'Roboto Slab', serif;
+
+}
+.third-text{
+    width: 300px;
+    padding: 200px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.third-leftsite{
+    background-image: url(../sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg);
+    width: 667px;
+    height: 600px;
+}
+.third-text2{
+    width: 300px;
+    padding: 200px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.third-rightsite{
+    background-image: url(../sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
+    width: 667px;
+    height: 600px;
+
+}
+
+.testominal{
+    text-align: center;
+    margin: 300px;
+    letter-spacing: 5px;
+    color: gray;
+}
+.img{
+    display: flex;
+    margin: 100px;
+    padding: 100px;
+    
+}
+
+.content-img{
+    width: 400px;
+    text-align: center;
+
+}
+.content-img2{
+    width: 400px;
+    text-align: center;
+
+}
+.content-img3{
+    width: 400px;
+    text-align: center;
+
+}
+
+.img-emily{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.img-thomas{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.img-jennie{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.introduction{
+    display: flex;
+   margin-left: 300px;
+   color: gray;
+}
+.introduction b{
+text-decoration: none;
+margin: 30px;
+color: black;
+}
+.emily{
+    padding-left:70px ;
+    padding-right:70px;
+
+}
+.thomas{
+    padding-left:70px ;
+    padding-right:70px;
+}
+.jennie{
+    padding-left:70px ;
+    padding-right:70px;
+}
+.last-part{
+    display: flex;
+    background-color:white;
+    width: 210px;
+    height: 414px;
+    margin-top: 100PX;
+}
+.footer{
+    text-align: center;
+    background-color: #90D4C5;
+    height: 300px;
+}
+.footer-logo img{
+    margin-top: 70px;
+}
+.footer-list ul{
+    list-style: none;
+    display: flex;
+    margin-top:50px ;
+    margin-left: 500px;
+}
+
+.footer-list ul li{
+  padding-left:25px ;
+  padding-right:25px;
+  color: #6AAE9F;
+}
+.list-items:hover{
+    color: white;
+}
+.footer-icon{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+   
+  }
+  .footer-icon img{
+    padding-left:20px ;
+    padding-right:20px;
+}
+.twitter:hover{
+    color:white !important;
+}
+    
